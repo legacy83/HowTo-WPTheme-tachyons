@@ -1997,6 +1997,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
   Add custom styles here.
 
 */
+/* Custom/Overrided Styles */
 /*--------------------------------------------------------------
 # Variables
 --------------------------------------------------------------*/
@@ -2011,6 +2012,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
    Colors
 
 */
+/* Custom/Overrided Colors */
 /*
 
   CUSTOM MEDIA QUERIES
@@ -2043,6 +2045,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 */
 /* Media Queries */
+/* Custom/Overrided Media Queries */
 /*--------------------------------------------------------------
 # Debugging
 --------------------------------------------------------------*/

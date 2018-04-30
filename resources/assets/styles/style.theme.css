@@ -66,12 +66,15 @@
 @import './../../../node_modules/tachyons/src/_z-index';
 @import './../../../node_modules/tachyons/src/_nested';
 @import './../../../node_modules/tachyons/src/_styles';
+@import './../../../resources/assets/styles/tachyons/_styles';
 
 /*--------------------------------------------------------------
 # Variables
 --------------------------------------------------------------*/
 @import './../../../node_modules/tachyons/src/_colors';
+@import './../../../resources/assets/styles/tachyons/_colors';
 @import './../../../node_modules/tachyons/src/_media-queries';
+@import './../../../resources/assets/styles/tachyons/_media-queries';
 
 /*--------------------------------------------------------------
 # Debugging
