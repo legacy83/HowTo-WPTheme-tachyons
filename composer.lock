@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0ae24c1ac5eead0bd92f01c81200e1de",
+    "packages": [
+        {
+            "name": "trsenna/dalen-kernel",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/trsenna/Dalen-kernel.git",
+                "reference": "a875aa848d02adede1f25cafb107c090896d451e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/trsenna/Dalen-kernel/zipball/a875aa848d02adede1f25cafb107c090896d451e",
+                "reference": "a875aa848d02adede1f25cafb107c090896d451e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "trsenna\\dalen\\kernel\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Thiago Senna",
+                    "homepage": "http://thremes.com.br"
+                }
+            ],
+            "description": "The Dalen WordPress library collection | a base foundation for plugin and theme development.",
+            "time": "2017-07-01T18:50:17+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.5.9"
+    },
+    "platform-dev": []
+}

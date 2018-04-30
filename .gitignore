@@ -1,0 +1,6 @@
+# Base
+.idea
+.DS_Store
+
+# Composer
+vendor
