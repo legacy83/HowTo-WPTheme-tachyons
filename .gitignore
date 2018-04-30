@@ -1,6 +1,6 @@
 # Base
-.idea
+/.idea
 .DS_Store
 
 # Composer
-vendor
+/vendor
