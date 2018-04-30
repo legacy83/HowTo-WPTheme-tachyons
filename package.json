@@ -1,0 +1,12 @@
+{
+  "name": "howto-wptheme-tachyons",
+  "version": "0.1.0",
+  "description": "The HowTo WPTheme tachyons.",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trsenna/HowTo-WPTheme-tachyons.git"
+  },
+  "author": "Thiago Senna",
+  "license": "GPL-2.0"
+}
