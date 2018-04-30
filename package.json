@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "description": "The HowTo WPTheme tachyons.",
   "scripts": {
-    "build": "npm run build:css && npm run build:css:min",
-    "build:css": "tachyons resources/assets/css/style.base.css > runtime/style.base.css",
-    "build:css:min": "tachyons resources/assets/css/style.base.css --minify > runtime/style.base.min.css",
-    "build:watch": "watch \"npm run build\" ./resources/assets/css"
+    "build": "npm run build:styles",
+    "build:styles": "npm run build:styles:theme && npm run build:styles:theme:min",
+    "build:styles:theme": "tachyons resources/assets/styles/style.theme.css > runtime/style.theme.css",
+    "build:styles:theme:min": "tachyons resources/assets/styles/style.theme.css --minify > runtime/style.theme.min.css",
+    "build:watch": "watch \"npm run build\" ./resources/assets/styles"
   },
   "repository": {
     "type": "git",
