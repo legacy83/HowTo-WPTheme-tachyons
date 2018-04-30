@@ -4,7 +4,8 @@
   "description": "The HowTo WPTheme tachyons.",
   "scripts": {
     "build": "npm run build:css",
-    "build:css": "tachyons resources/assets/css/style.base.css > runtime/style.base.css"
+    "build:css": "tachyons resources/assets/css/style.base.css > runtime/style.base.css",
+    "build:watch": "watch \"npm run build\" ./resources/assets/css"
   },
   "repository": {
     "type": "git",
@@ -14,6 +15,7 @@
   "license": "GPL-2.0",
   "devDependencies": {
     "tachyons": "^4.9.1",
-    "tachyons-cli": "^1.3.0"
+    "tachyons-cli": "^1.3.0",
+    "watch": "^1.0.2"
   }
 }
